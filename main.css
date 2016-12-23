@@ -3,12 +3,12 @@ h1 {
 }
 
 footer {
-  font-size: 70%;
+  font-size: 10pt;
   text-align: CENTER;
 }
 
 body {
-  padding: 2;
+  padding: 0;
   margin: 2;
   font-family: Cabin, Calibri, sans-serif;
 }

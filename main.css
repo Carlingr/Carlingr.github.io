@@ -10,27 +10,15 @@ h1 {
   margin: 0px;
 }
 
-footer {
-  font-size: 10pt;
-  text-align: CENTER;
-  margin: 15px 0px 0px 0px;
+h2 {
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+  font-size: 20px;
 }
 
 body {
   margin: 2;
   font-family: Cabin, Calibri, sans-serif;
-}
-
-canvas {
-  vertical-align: top;
-}
-
-sup {
-  vertical-align: 2px
-}
-
-td {
-  padding: 0px 5px 0px 5px;
 }
 
 article {
@@ -41,11 +29,8 @@ table {
   width: 100%;
 }
 
-aside {
-  width: 135px;
-  text-align: RIGHT;
-  border: 1px solid;
-  padding: 0px;
+td {
+  padding: 0px 5px 0px 5px;
 }
 
 p {
@@ -55,4 +40,25 @@ p {
 
 .boxed {
   padding: 5px;
+}
+
+sup {
+  vertical-align: 2px
+}
+
+canvas {
+  vertical-align: top;
+}
+
+aside {
+  width: 135px;
+  text-align: RIGHT;
+  border: 1px solid;
+  padding: 0px;
+}
+
+footer {
+  font-size: 10pt;
+  text-align: CENTER;
+  margin: 15px 0px 0px 0px;
 }

@@ -1,47 +1,41 @@
 header {
-  padding: 0px;
-  margin: 0px 0px 5px 0px;
   text-align: CENTER;
   font-family: Merriweather, Roboto Slab, sans-serif;
 }
 
 h1 {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 6px;
   font-family: Merriweather, Roboto Slab, sans-serif;
 }
 
 h2 {
-  padding: 0px;
-  margin: 5px 0px 0px 0px;
+  padding: 0;
   font-size: 20px;
   font-family: Merriweather, Roboto Slab, sans-serif;
 }
 
 body {
-  margin: 2;
+  background-color: #FDFDFD;
+  width: 700px;
+  margin: auto;
   font-family: Cabin, Calibri, sans-serif;
 }
 
 article {
-  margin: 0px 5px 0px 5px;
-}
-
-table {
-  width: 100%;
+  background-color: white;
+  margin: auto;
+  padding: 0 10px 10px 10px;
+  width: 680px;
 }
 
 td {
-  padding: 0px 5px 0px 5px;
+  padding: 0 5px 0 5px;
 }
 
 p {
-  padding: 0px;
-  margin: 0px;
-}
-
-.boxed {
-  padding: 5px;
+  padding: 0;
+  margin: 5px;
 }
 
 sup {
@@ -56,14 +50,12 @@ aside {
   width: 135px;
   text-align: RIGHT;
   border: 1px solid;
-  padding: 0px;
+  padding: 5px;
 }
 
 footer {
   font-size: 10pt;
   text-align: CENTER;
-}
-
-hr {
-  margin: 15px 0px 0px 0px;
+  margin: 0;
+  padding: 0;
 }

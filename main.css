@@ -43,6 +43,7 @@ sup {
 }
 
 canvas {
+  margin: 0px;
   vertical-align: top;
 }
 

@@ -1,33 +1,48 @@
 header {
   text-align: CENTER;
-  font-family: Merriweather, Roboto Slab, sans-serif;
+  font-family: Roboto, Merriweather, sans-serif;
 }
 
 h1 {
   padding: 0;
   margin: 6px;
-  font-family: Merriweather, Roboto Slab, sans-serif;
+  font-family: Roboto, Merriweather, sans-serif;
 }
 
 h2 {
   margin: 10px 0 0 0;
   padding: 5px 0 0 0;
   font-size: 20px;
-  font-family: Merriweather, Roboto Slab, sans-serif;
+  font-family: Roboto, Merriweather, sans-serif;
 }
 
 body {
   background-color: #F0F0F0;
-  width: 700px;
+  width: 100%;
   margin: auto;
-  font-family: Cabin, Calibri, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arimo, Liberation Sans, Lucida Grande, sans-serif;
+}
+
+nav {
+  text-align: CENTER;
+  background-color: #0a0;
+  color: #FFF;
+  padding: 5px 10px 5px 10px;
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+#navbar {
+  margin: auto;
 }
 
 article {
   background-color: white;
   margin: auto;
   padding: 0 10px 10px 10px;
-  width: 680px;
+  width: 80%;
 }
 
 td {
@@ -53,7 +68,7 @@ button {
 }
 
 aside {
-  width: 135px;
+  width: 140px;
   text-align: RIGHT;
   border: 1px solid;
   padding: 5px;

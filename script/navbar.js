@@ -2,7 +2,7 @@ var navbar;
 
 function setup() {
   navbar = selectAll('.navbar');
-  for (var i = 0; i < navbar.length - 1; i++) {
+  for (var i = 0; i < navbar.length; i++) {
     navbar[i].mouseOver(over);
     navbar[i].mouseOut(out);
   }

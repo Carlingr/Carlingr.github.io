@@ -1,5 +1,5 @@
 /* This file sets up the layout for all pages that use default layout.
-It draws some exterior objects in, but also rearranges the page for small windows (defined as less than 600 px wide)
+It draws some exterior objects in, but also rearranges the page for small windows (defined as less than 740 px wide)
 */
 
 var nav; //holds the navbar
@@ -17,7 +17,7 @@ function setup() {
 
 function windowResized() { //if the window is resized
   var i; //declare a variable, easier than declaring for each loop
-  if (windowWidth < 600) { //if the window is "narrow"
+  if (windowWidth < 740) { //if the window is "narrow"
     for (i = 0; i < aside.length; i++) { //hide all aside elements
       aside[i].hide;
     }
@@ -33,5 +33,5 @@ function windowResized() { //if the window is resized
     for (i = 0; i < article.length; i++) {
       article[i].style('width', "80%"); //make some space on the sides
     }
-  }t
+  }
 }

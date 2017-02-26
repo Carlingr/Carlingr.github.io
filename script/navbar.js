@@ -6,6 +6,7 @@ function setup() {
     navbar[i].mouseOver(over);
     navbar[i].mouseOut(out);
   }
+  
 }
 
 function over() {

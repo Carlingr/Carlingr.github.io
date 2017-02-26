@@ -89,6 +89,10 @@ aside {
 footer {
   font-size: 10pt;
   text-align: CENTER;
-  margin: 0;
+  margin: auto;
   padding: 0;
+}
+
+.cntr {
+  margin: auto;
 }

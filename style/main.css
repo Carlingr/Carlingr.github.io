@@ -16,6 +16,13 @@ h2 {
   font-family: Roboto, Merriweather, sans-serif;
 }
 
+.subt a {
+  margin: auto;
+  color: #000;
+  text-decoration: none;
+  font-family: "Roboto Monospace", "Courier New", monospace;
+}
+
 body {
   background-color: #F0F0F0;
   width: 100%;

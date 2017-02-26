@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  margin: 6px;
+}
+
+.subt {
+  margin: auto;
+  color: inherit;
+  text-decoration: none;
+  font-family: "Roboto Monospace", "Courier New", monospace;
+  font-size: 12px;
+}
+
+canvas {
+  border: 1pt solid black;
+  text-align: CENTER;
+  margin: auto;
+}
+
+button {
+  margin: auto;
+}

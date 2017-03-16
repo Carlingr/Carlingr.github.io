@@ -13,8 +13,10 @@ var header; //holds header
 function setup() {
   var i; //declare a variable, easier than declaring for each loop
   if (windowWidth < 740) { //if the window is "narrow"
-    for (i = 0; i < aside.length; i++) { //hide all aside elements
-      aside[i].hide;
+    if (aside) {
+      for (i = 0; i < aside.length; i++) { //hide all aside elements
+        aside[i].hide;
+      }
     }
     nav.style('width', "100%"); //make things full width
     for (i = 0; i < article.length; i++) {
